@@ -1,0 +1,9 @@
+echo -n "Current shell is "
+if [[ "$-" != *i* ]]; then
+	echo -n "not "
+fi
+echo -e "interactive\n"
+
+echo "Shell options: "
+echo "$-"
+

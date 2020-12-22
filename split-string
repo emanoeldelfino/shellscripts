@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+str="A simple string"
+
+IFS=' '
+read -ra ADDR <<< $str
+
+for i in ${ADDR[@]}; do
+	echo $i
+done
+
