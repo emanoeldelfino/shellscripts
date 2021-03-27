@@ -1,13 +1,12 @@
 #!/usr/bin/bash
 
-echo 'Quantos anos você tem?'
+echo 'How old are you?'
 
 read age
 
-if [ $age -ge 18 ]
+if [ $age -ge 16 ]
 then
-	echo 'Você já pode dirigir!'
+	echo 'You can drive!'
 else
-	echo "Você ainda não pode dirigir."
+	echo "You can't drive yet."
 fi
-
